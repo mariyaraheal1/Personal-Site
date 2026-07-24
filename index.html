@@ -7,6 +7,7 @@
         <title>My Personal Website!</title>
     </head>
     <body>
+        <a class="skip-link" href="#main">Skip to main content</a>
         <header class="navbar">
             <nav>
                 <a href="https://hackclub.com/">Hack Club</a>
@@ -14,11 +15,16 @@
             </nav>
         </header>
 
-        <main>
+        <main id="main" class="container">
             <h1>My Personal Website!</h1>
             <img src="https://images.squarespace-cdn.com/content/v1/55ee34aae4b0bf70212ada4c/1539411457485-SYMFD9G5REMHQKTUK977/casablanca-2807439_1920+%281%29.jpg?format=1500w" alt="Moroccan beach">
             <h5>Moroccan Beach</h5>
             <p>Hi! This is my cool personal site!</p>
         </main>
+
+        <footer class="site-footer">
+            <p>&copy; <span id="year"></span> My Personal Website</p>
+        </footer>
+        <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
     </body>
 </html>
