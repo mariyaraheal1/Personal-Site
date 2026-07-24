@@ -1,0 +1,25 @@
+body {
+    text-align:center;
+    background-color: rgb(251, 212, 255);
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    align-content: center;
+    min-height: 100vh; 
+    margin: 0vh;
+}
+
+a:link{
+    color: aliceblue;
+}
+ 
+img{
+    width: 300px;
+}
+
+.navbar{
+position: absolute;
+top: 0;
+text-align: left;
+width: 100%;
+margin: 20px;
+}
