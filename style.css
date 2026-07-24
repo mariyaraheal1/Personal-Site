@@ -3,23 +3,32 @@ body {
     background-color: rgb(251, 212, 255);
     color: black;
     font-family: 'Times New Roman', Times, serif;
-    align-content: center;
-    min-height: 100vh; 
-    margin: 0vh;
+    min-height: 100vh;
+    margin: 0;
 }
 
-a:link{
-    color: aliceblue;
+a {
+    color: #003366;
+    text-decoration: none;
+    padding: 6px 10px;
 }
- 
+
 img{
+    max-width: 90%;
     width: 300px;
+    display:block;
+    margin: 1rem auto;
 }
 
 .navbar{
-position: absolute;
-top: 0;
-text-align: left;
-width: 100%;
-margin: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(255,255,255,0.8);
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    padding: 10px 20px;
 }
+
+/* ensure main content is not hidden behind fixed navbar */
+main{ padding-top: 70px; }
