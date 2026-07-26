@@ -30,17 +30,17 @@ img{
     padding: 10px 20px;
 }
 
-/* ensure main content is not hidden behind fixed navbar */
+
 main{ padding-top: 70px; }
 
-/* container to center content and limit line length */
+
 .container{
     max-width: 900px;
     margin: 0 auto;
     padding: 1rem;
 }
 
-/* accessible skip link */
+
 .skip-link{
     position: absolute;
     left: -999px;
@@ -60,7 +60,7 @@ main{ padding-top: 70px; }
     z-index: 9999;
 }
 
-/* nav layout tweaks */
+
 nav{ display:flex; gap:12px; justify-content:flex-end; align-items:center; }
 nav a{ background: transparent; border-radius:4px; }
 nav a:hover, nav a:focus{ background: rgba(0,51,102,0.08); }
